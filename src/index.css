@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+/* :root {
+  --cell-size: 100px;
+  --mark-size: calc(var(--cell-size) * 0.9);
+} */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+
+  background-color: rgb(24, 25, 26);
+}
